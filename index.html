@@ -2,40 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GTM Practice Site</title>
+  <title>GTM Practice Website</title>
 
-  <!-- GTM HEAD (replace later) -->
-  <!-- Google Tag Manager -->
+  <!-- Google Tag Manager (HEAD) -->
+  <!-- Replace with GTM snippet later -->
   <!-- END Google Tag Manager -->
 
 </head>
 <body>
 
-  <!-- GTM BODY (replace later) -->
-  <!-- Google Tag Manager (noscript) -->
-  <!-- END Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (BODY) -->
+  <!-- Replace with GTM noscript later -->
+  <!-- END Google Tag Manager -->
 
   <h1>GTM Practice Website</h1>
 
+  <p>This website is used to practice GTM, GA4, and Ads tracking.</p>
+
+  <hr>
+
+  <!-- Outbound link -->
   <a href="https://example.com" target="_blank" id="outbound-link">
     Outbound Link
   </a>
 
   <br><br>
 
-  <button id="cta-button">Primary CTA</button>
+  <!-- CTA button -->
+  <button id="cta-button">
+    Primary CTA
+  </button>
 
   <br><br>
 
-<a href="product.html" id="view-product">
-  View Product
-</a>
+  <!-- View Product link (REQUESTED) -->
+  <a href="product.html" id="view-product">
+    View Product
+  </a>
 
-  <br><br>
+  <hr>
 
-  <form action="thank-you.html" method="GET">
-    <input type="email" name="email" required placeholder="Enter email">
-    <button type="submit">Submit</button>
+  <!-- Lead form -->
+  <h2>Lead Form</h2>
+
+  <form action="thank-you.html" method="GET" id="lead-form">
+    <input
+      type="email"
+      name="email"
+      placeholder="Enter email"
+      required
+    >
+    <br><br>
+    <button type="submit" id="form-submit">
+      Submit
+    </button>
   </form>
 
 </body>
